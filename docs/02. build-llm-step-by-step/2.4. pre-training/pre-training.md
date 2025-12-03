@@ -44,15 +44,12 @@ Lặp cho đến khi:
 
 **Dạng 1: Công thức theo phân phối xác suất**
 
-$$
-\mathcal{L} = - \sum_{t} \log P_\theta(x_t \mid x_{<t})
-$$
+
+$\mathcal{L} = - \sum_{t} \log P_\theta(x_t \mid x_{<t})$
 
 **Dạng 2: Công thức theo one-hot vector**
 
-$$
-\mathcal{L} = - \sum_{t} \sum_{i} y_{t,i} \cdot \log(p_{t,i})
-$$
+$\mathcal{L} = - \sum_{t} \sum_{i} y_{t,i} \cdot \log(p_{t,i})$
 
 Trong đó:
 - $x_t$: token thật tại vị trí t  
