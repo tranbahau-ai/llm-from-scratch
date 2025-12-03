@@ -146,3 +146,6 @@ Each head learns different relationships:
 
 ### Tổng kết
 Attention giúp mô hình **tập trung, suy luận và linh hoạt**. Đây là **core của Transformer & GPT**.
+
+
+[Next: Build LLM step-by-step](/docs/02.%20build-llm-step-by-step/2.1.%20prepare-data/collect-and-clean-up.md)

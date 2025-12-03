@@ -14,7 +14,5 @@ Transformer giải quyết vấn đề này bằng cơ chế [self-attention](/d
 
 
 
-
-
 ![alt text](/images/image-03.png)
 

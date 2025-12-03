@@ -15,4 +15,7 @@ Large Language Model là một loại mô hình deep learning được huấn lu
 - **Dịch thuật**: Dịch tự động đa ngôn ngữ  
 - **Tóm tắt văn bản**: Rút gọn tài liệu dài  
 - **Sinh code**: GitHub Copilot, Code generation  
-- **Phân tích cảm xúc**: Đánh giá sentiment trong text  
+- **Phân tích cảm xúc**: Đánh giá sentiment trong text 
+
+
+[Next: Transformer Architecture](/docs/01.%20transformer-architecture/overview.md)
