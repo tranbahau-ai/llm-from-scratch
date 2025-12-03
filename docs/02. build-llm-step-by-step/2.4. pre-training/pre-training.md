@@ -44,21 +44,21 @@ Lặp cho đến khi:
 
 **Dạng 1: Công thức theo phân phối xác suất**
 
-\[
+$$
 \mathcal{L} = - \sum_{t} \log P_\theta(x_t \mid x_{<t})
-\]
+$$
 
 **Dạng 2: Công thức theo one-hot vector**
 
-\[
+$$
 \mathcal{L} = - \sum_{t} \sum_{i} y_{t,i} \cdot \log(p_{t,i})
-\]
+$$
 
 Trong đó:
-- \(x_t\): token thật tại vị trí t  
-- \(P_\theta(x_t \mid x_{<t})\): xác suất mô hình dự đoán token đúng  
-- \(y_{t,i}\): phần tử one-hot cho token đúng  
-- \(p_{t,i}\): xác suất mô hình dự đoán cho token i  
+- $x_t$: token thật tại vị trí t  
+- $P_\theta(x_t \mid x_{<t})$: xác suất mô hình dự đoán token đúng  
+- $y_{t,i}$: phần tử one-hot cho token đúng  
+- $p_{t,i}$: xác suất mô hình dự đoán cho token i  
 
 
 ### Kiến trúc mô hình trong Pre-training
