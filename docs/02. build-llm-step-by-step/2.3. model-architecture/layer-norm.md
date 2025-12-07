@@ -48,5 +48,5 @@ x = torch.tensor([[[2.0, 3.0, 5.0, 6.0]]])
 layer_norm = LayerNorm(4)  
 output = layer_norm(x)  
   
-print(output)  # tensor([[[-1.2649, -0.6324,  0.6324,  1.2649]]], grad_fn=<AddBackward0>)
+print(output)  # tensor([[[-1.2649, -0.6324,  0.6324,  1.2649]]])
 ```
